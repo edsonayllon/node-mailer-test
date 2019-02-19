@@ -4,23 +4,23 @@
  * Module dependencies.
  */
 
-var app = require('../app');
-var debug = require('debug')('mail-test:server');
-var http = require('http');
+const app = require('../app');
+const debug = require('debug')('mail-test:server');
+const http = require('http');
 const config = require('../config')
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(config.PORT);
+const port = normalizePort(config.PORT);
 app.set('port', port);
 
 /**
  * Create HTTP server.
  */
 
-var server = http.createServer(app);
+const server = http.createServer(app);
 
 /**
  * Listen on provided port, on all network interfaces.
