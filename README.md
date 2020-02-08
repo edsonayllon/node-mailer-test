@@ -1,6 +1,21 @@
-# node mailer test
+---
+author: Edson Ayllon
+category: functionality
+tags: 
+- node
+- express
+- email
+status: complete
+twitter: https://twitter.com/relativeread
+---
 
-## Table of Contents
+## Modular 3-2019
+
+# Node Mailer Test
+
+Testing the ability to send emails with Node.js.
+
+## Contents
 
 <!-- TOC START min:1 max:3 link:true update:true -->
 - [node mailer test](#node-mailer-test)
